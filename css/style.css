@@ -1,0 +1,90 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+ul{
+    /* padding-left: 10%; */
+}
+ul li{
+    display: inline-block;
+    padding-left: 8%;
+    padding-top: 2%;
+    font-size: large;
+}
+.logo{
+    margin-top: 5%;
+}
+ul li a{
+    text-decoration: none;
+    /* color: white; */
+}
+
+/* main diaplay body */
+
+body{
+    background-color: black ;
+    z-index: 3;
+}
+
+#thumbnail-box{
+    /* z-index: -5; */
+    height: 350px;
+    margin: 15%;
+    margin-top: 10px;
+    margin-bottom: 1% ;
+    background-image: linear-gradient( to right,#0D0D0F, #151518);
+}
+#card-box-image{
+    z-index: 5;
+    float: right;
+    height: 500px;
+    width: auto;
+    margin-top: -468px;
+    margin-right: 5%;
+}
+#card-box-text{
+    /* z-index: 6; */
+    color: white;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+
+
+/* colors  */
+
+
+
+#gredient{
+    background-image: linear-gradient( to right,#3341FC, #8323FB);
+    border: none;
+}
+
+#gredient:hover
+{
+    background-image: linear-gradient( to left,#3341FC, #8323FB);
+    animation-name: 1s;
+    border: none;
+}
+
+#back-color
+{
+    background-color: #101012; 
+}
+
+#text-color
+{
+    color: #9b9b9b; 
+}
+
+#logo-color
+{
+  color: #3341fc;
+}
+
+hr{
+    z-index: -5;
+    border-top: 1px dashed;
+    width: 50px;
+  }
